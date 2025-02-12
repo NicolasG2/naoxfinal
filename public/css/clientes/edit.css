@@ -1,0 +1,103 @@
+::before::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+body {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  font-family: Nunito, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+
+.container {
+    display: block;
+    padding-bottom: 35px;
+    text-align: center;
+    background-color: #e2dede;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-top: 10px;
+}
+
+b {
+    font-family: 'CODE';
+    font-size: 30px;
+    color: white;
+    background-color: #23A6AE;
+    height: 100%;
+    display: flex;
+    justify-content: baseline;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+form {
+    margin-top: 60px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+
+
+.form-floating1 {
+  display: flex;
+  float: left;
+  width: 20px;
+  height: 30px;
+  margin-left: 15px;
+}
+
+.btn-voltar {
+  border: rgb(4, 6, 116) 1px solid;
+  cursor: pointer;
+  border-radius: 50px;
+  width: auto;
+  height: auto;
+}
+
+tr:hover .btn-voltar {
+  display: inline-block;
+}
+
+.btn-voltar:hover {
+  background-color: #40d7df;
+}
+
+.btn-confirm {
+  border: #24892F 1px solid;
+  cursor: pointer;
+  border-radius: 50px;
+  width: auto;
+  height: auto;
+}
+
+tr:hover .btn-confirm {
+  display: inline-block;
+}
+
+.btn-confirm:hover {
+  background-color: #99fda5;
+}

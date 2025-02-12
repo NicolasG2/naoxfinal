@@ -1,0 +1,97 @@
+::before::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+
+::before,
+::after {
+    --tw-content: '';
+}
+
+body {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    font-family: Nunito, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+
+body {
+    line-height: 1.5; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    -moz-tab-size: 4; /* 3 */
+    -o-tab-size: 4;
+    tab-size: 4; /* 3 */
+    font-family: Arial, Helvetica, sans-serif;
+    font-feature-settings: normal; /* 5 */
+    font-variation-settings: normal; /* 6 */
+      
+}
+
+b {
+    font-family: 'CODE';
+    font-size: 30px;
+    color: #49454F ;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table {
+    background-color: #e2dede;
+    display: table;
+}
+
+#tr1 {
+    font-size: 15px;
+    color: white;
+    background-color: #23A6AE;
+}
+
+.btn-delete {
+    border: darkred 1px solid;
+    cursor: pointer;
+    border-radius: 50px;
+    width: auto;
+    height: auto;
+}
+
+tr:hover .btn-delete {
+    display: inline-block;
+}
+
+.btn-delete:hover {
+    background-color: rgb(219, 84, 84);
+}
+
+.btn-edit {
+    border: rgb(4, 6, 116) 1px solid;
+    cursor: pointer;
+    border-radius: 50px;
+    width: auto;
+    height: auto;
+}
+
+tr:hover .btn-edit {
+    display: inline-block;
+}
+
+.btn-edit:hover {
+    background-color: #40d7df;
+}
